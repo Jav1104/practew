@@ -1,0 +1,17 @@
+*{
+box-sizing: border-box;
+
+}
+body{
+background-color: lightgray;
+margin: 0;
+}
+.article{
+background-color: lime;
+margin: 0;
+padding-top: .5px;
+
+}
+.titulo{
+   /* margin: 0;*/
+}

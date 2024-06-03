@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>imagenes Responsive</title>
+</head>
+<body>
+	<h1>imagenes Responsive</h1>
+	<p>devicePixelRadius: es la relacion de pixeles entre el dispositivo</p>
+	<ul>
+     	<li>viweport: es el tamaño real del navegador (w)</li>
+     	<li>viweport heidth: para definir alto del navegador (wh)</li>
+     	<li>viweport width: para definir ancho del navegador (ww)</li>
+     	
+     </ul>
+     <picture>
+     	<source srcset="img/pucca.jpg" media="(min-width:1200px)">
+     	<source srcset="img/html.png" media="(min-width:1000px)">
+        <source srcset="img/alumno.jpg" media="(min-width:600px)">
+        	<img src="img/maestro.jpg" alt="">
+     </picture>
+
+</body>
+</html>

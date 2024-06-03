@@ -1,0 +1,124 @@
+body{
+	font-size: 1.5em;
+}
+.box{
+    box-sizing :border-box;
+    background-color: deepskyblue;
+    width: 300px;
+    height: 300px; 
+margin-left: auto;
+margin-right: auto;
+margin-bottom:10px ;
+}
+.box-1{
+	background-clip: paddind-box;
+	border: 30px dotted; green;
+
+}
+.box-2{
+	border-style: dashed;
+	border-width: 10px;
+	border-color: blueviolet;
+}
+/*ejemplo de las propiedades */
+.box-3{
+	/*ancho*/
+	border-top-width: 10px;
+	border-right-width: 40px;
+	border-bottom-width: 15px ;
+	border-left-width: 30px;
+
+/*estilo*/
+border-top-style:dotted;
+border-bottom-style:double;
+border-left-style:groove;
+border-right-style:solid;
+/*color*/
+border-bottom-color:red;
+border-right-color:lime;
+border-left-color:green;
+border-top-color:darckyan;
+}
+.box-4{
+	border-style: dotted solid double groove;
+	border-width: 20px;
+	border-color: blueviolet;
+}
+.box-5{
+	border: 20px dotted red ;
+}
+
+.box-6{
+    border-top:solid 150px aqua;
+    border-right: solid 150px green;
+    border-bottom: solid 150px purple;
+    border-left: solid 150px blue;
+}
+.box-7{
+    background-color:transparent;
+    border-left: solid 150px blue;
+    border-top:solid 150px transparent;
+    border-right: solid 150px transparent;
+    border-bottom: solid 150px transparent;
+    
+}
+.box-8{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 150px;
+	border-color: transparent transparent 
+	transparent blue 
+}
+.box-9{
+	 width:400px;
+     height:400px;
+     margin:100px;
+     border:double 100px;
+     border-color: red transparent transparent transparent;
+     background-color:transparent;
+     border-radius:100%;
+     
+	 }
+.box-10{
+	border-radius: 50%;
+	width:50px;
+	height:50px;
+    background:blue transparent transparent transparent;
+    margin-top:40px;
+	 }	 
+ .box-12{
+ 	 display: block;
+ 	 width: 200px;
+ 	 height: 180;
+ 	 background-color: green;
+ 	 border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;	
+ }
+ .box-13{
+ 	background-color: green;
+ 	border-top-left-radius: 500px;
+ 	border-top-right-radius: 100px;
+ 	border-bottom-right-radius: 500px;
+ 	border-bottom-left-radius: 30px;
+
+ 	 }
+ .box-14{
+ 	width: 400px;
+ 	height: 400px;
+ 	margin: 100px;
+ 	border:groove 200px;
+ 	border-color: transparent rgb(149,68,11);
+ 	background-color: transparent;
+ 	border-radius: 100%;
+ }
+ .box-15{
+ 	border-radius: 50%;
+ 	width: 70px;
+ 	height: 70px;
+ 	background: red;
+ 	margin-top: -30px;
+ 	margin-left: -35px;
+ }
+
+
+
+

@@ -1,0 +1,34 @@
+body{
+	background-color: lightgray;
+}
+h1{
+	background-color: lime;
+	height: 200px;
+	width: 200px;
+/*cambiamos la propiedad del elemento de  bloque a elemento de linea*/
+	display: inline;
+}
+span{
+	background-color: lime;
+	height: 100px;
+	width: 200px;
+	/*cambiamos la propiedad del elemento de  linea a elemento de bloque*/
+	/*display: block;*/
+	/*estado intermedio*/
+    /*display: inline-block;*/
+    /*ocultar el elemento*/
+    display: none;
+}
+p{
+	display: inline;
+	background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+

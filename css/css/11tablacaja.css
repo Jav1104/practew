@@ -1,0 +1,16 @@
+body{background-color: lightgray;}
+[class^="box-2"]
+
+box{
+	background-color: red;
+	background-color: lime;
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+	border: 30px solid black;
+	margin: 50px;
+}
+.box-2{
+	background-clip: content-box;
+	background-sizing: border-box;
+}

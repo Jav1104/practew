@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+    body{
+    margin: 0;
+
+    }
+    .video{
+    background-color: lime;
+    padding-bottom: 56.25%;
+    }
